@@ -286,9 +286,9 @@ into the {body} of the default.hbs template -->
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            this.page.url = '/advanced-markdown';
-                            this.page.identifier = '/advanced-markdown';
-                            this.page.title = 'Advanced Markdown tips';
+                            var this_page_url = '/advanced-markdown';
+                            var this_page_identifier = '/advanced-markdown';
+                            var this_page_title = 'Advanced Markdown tips';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');

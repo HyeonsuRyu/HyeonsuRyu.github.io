@@ -254,9 +254,9 @@ into the {body} of the default.hbs template -->
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            this.page.url = '/managing-users';
-                            this.page.identifier = '/managing-users';
-                            this.page.title = 'Managing Ghost users';
+                            var this_page_url = '/managing-users';
+                            var this_page_identifier = '/managing-users';
+                            var this_page_title = 'Managing Ghost users';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');

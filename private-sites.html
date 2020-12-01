@@ -249,9 +249,9 @@ into the {body} of the default.hbs template -->
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            this.page.url = '/private-sites';
-                            this.page.identifier = '/private-sites';
-                            this.page.title = 'Making your site private';
+                            var this_page_url = '/private-sites';
+                            var this_page_identifier = '/private-sites';
+                            var this_page_title = 'Making your site private';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');

@@ -336,9 +336,9 @@ into the {body} of the default.hbs template -->
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            this.page.url = '/i-have-a-dream';
-                            this.page.identifier = '/i-have-a-dream';
-                            this.page.title = 'I Have a Dream';
+                            var this_page_url = '/i-have-a-dream';
+                            var this_page_identifier = '/i-have-a-dream';
+                            var this_page_title = 'I Have a Dream';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
