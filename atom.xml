@@ -2,9 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> - Articles</title>
-    <description>The professional publishing platform</description>
+    <description>description</description>
     <link>
     </link>
+    
+      
+      <item>
+        <title>AAAA</title>
+        
+          <description>&lt;p&gt;AAAAA&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 01 Dec 2020 18:22:00 +0900</pubDate>
+        <link>
+        /the-purpose-of-education-(1)</link>
+        <guid isPermaLink="true">/the-purpose-of-education-(1)</guid>
+      </item>
+      
     
       
       <item>
