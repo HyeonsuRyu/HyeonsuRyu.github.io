@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/author/hyeonsu/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-12-02T02:21:40+09:00</updated>
+  <updated>2020-12-03T08:03:20+09:00</updated>
   <id>/author/hyeonsu/feed.xml</id>
 
   
@@ -46,12 +46,155 @@
 
   
     <entry>
-      <title type="html">AAAA</title>
-      <link href="/the-purpose-of-education-(1)" rel="alternate" type="text/html" title="AAAA" />
-      <published>2020-12-01T18:22:00+09:00</published>
-      <updated>2020-12-01T18:22:00+09:00</updated>
-      <id>/the-purpose-of-education-(1)</id>
-      <content type="html" xml:base="/the-purpose-of-education-(1)">&lt;p&gt;AAAAA&lt;/p&gt;</content>
+      <title type="html">마크다운 문법</title>
+      <link href="/markdown-syntax" rel="alternate" type="text/html" title="마크다운 문법" />
+      <published>2020-12-03T08:03:00+09:00</published>
+      <updated>2020-12-03T08:03:00+09:00</updated>
+      <id>/markdown-syntax</id>
+      <content type="html" xml:base="/markdown-syntax">&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# header 1&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;## header 2&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;### header 3&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;#### header 4&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;##### header 5&lt;/span&gt;
+&lt;span class=&quot;gu&quot;&gt;###### header 6&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;header-1&quot;&gt;header 1&lt;/h1&gt;
+&lt;h2 id=&quot;header-2&quot;&gt;header 2&lt;/h2&gt;
+&lt;h3 id=&quot;header-3&quot;&gt;header 3&lt;/h3&gt;
+&lt;h4 id=&quot;header-4&quot;&gt;header 4&lt;/h4&gt;
+&lt;h5 id=&quot;header-5&quot;&gt;header 5&lt;/h5&gt;
+&lt;h6 id=&quot;header-6&quot;&gt;header 6&lt;/h6&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ge&quot;&gt;*italics*&lt;/span&gt;
+&lt;span class=&quot;ge&quot;&gt;_italics_&lt;/span&gt;
+
+&lt;span class=&quot;gs&quot;&gt;**bold**&lt;/span&gt;
+&lt;span class=&quot;gs&quot;&gt;__bold__&lt;/span&gt;
+
+&lt;span class=&quot;gs&quot;&gt;**_italics and bold_**&lt;/span&gt;
+&lt;span class=&quot;gs&quot;&gt;__*italics and bold*__&lt;/span&gt;
+
+~~strike through~~
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;u&amp;gt;&lt;/span&gt;underlining&lt;span class=&quot;nt&quot;&gt;&amp;lt;/u&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;italics&lt;/em&gt;
+&lt;em&gt;italics&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;bold&lt;/strong&gt;
+&lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;italics and bold&lt;/em&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;em&gt;italics and bold&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;underlining&lt;/u&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; A
+&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; B
+&lt;span class=&quot;p&quot;&gt;  -&lt;/span&gt; a
+&lt;span class=&quot;p&quot;&gt;  -&lt;/span&gt; b
+&lt;span class=&quot;p&quot;&gt;  -&lt;/span&gt; c
+&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; C
+&lt;span class=&quot;p&quot;&gt;  -&lt;/span&gt; a
+&lt;span class=&quot;p&quot;&gt;  -&lt;/span&gt; b
+&lt;span class=&quot;p&quot;&gt;  *&lt;/span&gt; c
+&lt;span class=&quot;p&quot;&gt;  +&lt;/span&gt; d
+&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; D
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A&lt;/li&gt;
+  &lt;li&gt;B
+    &lt;ul&gt;
+      &lt;li&gt;a&lt;/li&gt;
+      &lt;li&gt;b&lt;/li&gt;
+      &lt;li&gt;c&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;C
+    &lt;ul&gt;
+      &lt;li&gt;a&lt;/li&gt;
+      &lt;li&gt;b&lt;/li&gt;
+      &lt;li&gt;c&lt;/li&gt;
+      &lt;li&gt;d&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;D&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hyeonsuryu.github.io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hyeonsuryu.github.io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;link description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hyeonsuryu.github.io&quot;&gt;hyeonsuryu.github.io&lt;/a&gt;
+&lt;a href=&quot;https://hyeonsuryu.github.io&quot; title=&quot;link description&quot;&gt;hyeonsuryu.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alternative text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io/assets/images/abraham.jpg&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;link description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hyeonsuryu.github.io/assets/images/abraham.jpg&quot; alt=&quot;alternative text&quot; title=&quot;link description&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A | B | C | D
+:---|---:|:---:|---
+a | b | c | d
+ㄱ | ㄴ | ㄷ | ㄹ
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;A&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;B&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;C&lt;/th&gt;
+      &lt;th&gt;D&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;c&lt;/td&gt;
+      &lt;td&gt;d&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ㄱ&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;ㄴ&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;ㄷ&lt;/td&gt;
+      &lt;td&gt;ㄹ&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt;quote&lt;/span&gt;
+&lt;span class=&quot;gt&quot;&gt;&amp;gt;quote&lt;/span&gt;
+
+--
+&lt;span class=&quot;gt&quot;&gt;&amp;gt;quote&lt;/span&gt;
+&lt;span class=&quot;gt&quot;&gt;&amp;gt;&amp;gt;quote&lt;/span&gt;
+&lt;span class=&quot;gt&quot;&gt;&amp;gt;&amp;gt;&amp;gt;quote&lt;/span&gt;
+&lt;span class=&quot;gt&quot;&gt;&amp;gt;&amp;gt;&amp;gt;quote&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;quote
+quote&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;quote&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;quote&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;quote
+quote&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;</content>
 
       
       
@@ -68,11 +211,11 @@
       
 
       
-        <category term="test" />
+        <category term="markdown" />
       
 
       
-        <summary type="html">AAAAA</summary>
+        <summary type="html"># header 1 ## header 2 ### header 3 #### header 4 ##### header 5 ###### header 6</summary>
       
 
       
