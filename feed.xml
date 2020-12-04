@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-03T08:03:20+09:00</updated><id>/</id><title type="html">Title</title><subtitle>description</subtitle><entry><title type="html">마크다운 문법</title><link href="/markdown-syntax" rel="alternate" type="text/html" title="마크다운 문법" /><published>2020-12-03T08:03:00+09:00</published><updated>2020-12-03T08:03:00+09:00</updated><id>/markdown-syntax</id><content type="html" xml:base="/markdown-syntax">&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# header 1&lt;/span&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-04T23:50:46+09:00</updated><id>/</id><title type="html">Title</title><subtitle>description</subtitle><entry><title type="html">Java 공부 시작하기</title><link href="/start-java" rel="alternate" type="text/html" title="Java 공부 시작하기" /><published>2020-12-04T23:39:00+09:00</published><updated>2020-12-04T23:39:00+09:00</updated><id>/start-java</id><content type="html" xml:base="/start-java">&lt;p&gt;C, Python과 같은 다른 프로그래밍 언어를 공부하고 프로젝트를 진행하면서 많은 사람들이 사용하는 Java를 공부해보고 싶다는 생각을 항상 해왔었다. 4년전 “초보자를 위한 Java 200제” 책을 구입하고 공부를 시작하며 항상 금방 포기했었다. Java를 처음 시작할 당시 JDK, JVM, JSE, JavaEE와 같이 많은 용어들이 시작부터 튀어나와 반감이 들었고, C언어나 python과 달리 Hello World를 출력하는데 너무 긴 코드를 보니 엄두가 나지 않았었다. 시간이 지나 생각해보면 Java에 대한 이해가 너무 없이 코드 실행부터 하려 했기에 공부하기 싫어졌던 것 같다. 그러나 이제 Java 공부를 더 이상 미루고 싶지 않기에 천천히 Java에 실증 나지 않게 공부를 시작해보려고 한다.&lt;/p&gt;
+
+&lt;p&gt;Java의 장점으로는 많은 개발자가 이용한다는 것이 있다. 많은 사람들이 이용한다는 것 만으로 장점이 될 수 있는 이유는 많은 개발자가 사용하기에 안정성이 높아지고 API가 많아 직접 코드를 짜지 않고도 구현할 수 있는 기능이 많아지기 때문이다. 또 다른점은 이식성이 매우 높다는 것이다. Java코드는 먼저 JDK(Java Development Kit)에서 컴파일 된다. 컴파일 된 프로그램은 바로 실행될 수 없고 JVM(Java Virtual Machine)이라는 가상 머신에서 작동된다. 따라서 Java로 만들어진 프로그램은 운영체제에 상관 없이 JVM만 있으면 실행이 될 수 있게된다.&lt;/p&gt;
+
+&lt;p&gt;Java를 시작하기 위해 먼저 JDK를 설치해야한다. 그러나 Java는 주기적으로 메이저 업데이트가 진행되기 때문에 버전을 선택해야한다. 2020년 12월 4일 기준 Java는 15 버전까지 출시되었지만 최신 버전의 Java는 안정성에서 문제가 생길 수 있고 Java에 입문하는 사람이라면 이런 문제는 잡아내기 어렵다. 많은 프로젝트에서 사용되는 버전은 8이지만 8은 현재 지원이 끊긴 상태이다. 따라서 지원 중인 버전 중 오래된 버전인 11 버전을 공부하기로 했다.&lt;/p&gt;</content><author><name>Hyeonsu Ryu</name></author><category term="java" /><summary type="html">C, Python과 같은 다른 프로그래밍 언어를 공부하고 프로젝트를 진행하면서 많은 사람들이 사용하는 Java를 공부해보고 싶다는 생각을 항상 해왔었다. 4년전 “초보자를 위한 Java 200제” 책을 구입하고 공부를 시작하며 항상 금방 포기했었다. Java를 처음 시작할 당시 JDK, JVM, JSE, JavaEE와 같이 많은 용어들이 시작부터 튀어나와 반감이 들었고, C언어나 python과 달리 Hello World를 출력하는데 너무 긴 코드를 보니 엄두가 나지 않았었다. 시간이 지나 생각해보면 Java에 대한 이해가 너무 없이 코드 실행부터 하려 했기에 공부하기 싫어졌던 것 같다. 그러나 이제 Java 공부를 더 이상 미루고 싶지 않기에 천천히 Java에 실증 나지 않게 공부를 시작해보려고 한다.</summary></entry><entry><title type="html">마크다운 문법</title><link href="/markdown-syntax" rel="alternate" type="text/html" title="마크다운 문법" /><published>2020-12-03T08:03:00+09:00</published><updated>2020-12-03T08:03:00+09:00</updated><id>/markdown-syntax</id><content type="html" xml:base="/markdown-syntax">&lt;p&gt;#헤더&lt;/p&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# header 1&lt;/span&gt;
 &lt;span class=&quot;gu&quot;&gt;## header 2&lt;/span&gt;
 &lt;span class=&quot;gu&quot;&gt;### header 3&lt;/span&gt;
 &lt;span class=&quot;gu&quot;&gt;#### header 4&lt;/span&gt;
@@ -13,6 +18,7 @@
 &lt;h5 id=&quot;header-5&quot;&gt;header 5&lt;/h5&gt;
 &lt;h6 id=&quot;header-6&quot;&gt;header 6&lt;/h6&gt;
 
+&lt;p&gt;#글꼴&lt;/p&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ge&quot;&gt;*italics*&lt;/span&gt;
 &lt;span class=&quot;ge&quot;&gt;_italics_&lt;/span&gt;
 
@@ -40,6 +46,7 @@
 
 &lt;p&gt;&lt;u&gt;underlining&lt;/u&gt;&lt;/p&gt;
 
+&lt;p&gt;#리스트&lt;/p&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; A
 &lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; B
 &lt;span class=&quot;p&quot;&gt;  -&lt;/span&gt; a
@@ -73,18 +80,23 @@
   &lt;li&gt;D&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;p&gt;#링크 삽입&lt;/p&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hyeonsuryu.github.io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
 &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hyeonsuryu.github.io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;link description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://hyeonsuryu.github.io&quot;&gt;hyeonsuryu.github.io&lt;/a&gt;
-&lt;a href=&quot;https://hyeonsuryu.github.io&quot; title=&quot;link description&quot;&gt;hyeonsuryu.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hyeonsuryu.github.io&quot;&gt;hyeonsuryu.github.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alternative text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io/assets/images/abraham.jpg&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;link description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;p&gt;&lt;a href=&quot;https://hyeonsuryu.github.io&quot; title=&quot;link description&quot;&gt;hyeonsuryu.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;#이미지 삽입&lt;/p&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alternative text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io/assets/images/grapes.jpg&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;link description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: width=&quot;50%&quot; height=&quot;50%&quot;} #%기호 없이 픽셀 단위 가능
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://hyeonsuryu.github.io/assets/images/abraham.jpg&quot; alt=&quot;alternative text&quot; title=&quot;link description&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://hyeonsuryu.github.io/assets/images/grapes.jpg&quot; alt=&quot;alternative text&quot; title=&quot;link description&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;#표&lt;/p&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A | B | C | D
 :---|---:|:---:|---
 a | b | c | d
@@ -116,6 +128,7 @@ a | b | c | d
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;p&gt;#인용구&lt;/p&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt;quote&lt;/span&gt;
 &lt;span class=&quot;gt&quot;&gt;&amp;gt;quote&lt;/span&gt;
 
@@ -141,4 +154,4 @@ quote&lt;/p&gt;
 quote&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><author><name>Hyeonsu Ryu</name></author><category term="markdown" /><summary type="html"># header 1 ## header 2 ### header 3 #### header 4 ##### header 5 ###### header 6</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name>Hyeonsu Ryu</name></author><category term="markdown" /><summary type="html">#헤더 # header 1 ## header 2 ### header 3 #### header 4 ##### header 5 ###### header 6</summary></entry></feed>
