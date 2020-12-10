@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/java/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-12-04T23:50:46+09:00</updated>
+  <updated>2020-12-11T05:21:49+09:00</updated>
   <id>/tag/java/feed.xml</id>
 
   
@@ -12,30 +12,16 @@
   
 
   
-    <title type="html">Title | </title>
+    <title type="html">HyeonsuRyu.github.io | </title>
   
 
   
-    <subtitle>description</subtitle>
+    <subtitle>개발 블로그</subtitle>
   
 
   
 
   
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
     
       
     
@@ -46,16 +32,135 @@
 
   
     <entry>
-      <title type="html">Java 공부 시작하기</title>
-      <link href="/start-java" rel="alternate" type="text/html" title="Java 공부 시작하기" />
-      <published>2020-12-04T23:39:00+09:00</published>
-      <updated>2020-12-04T23:39:00+09:00</updated>
+      <title type="html">Java 이해하기</title>
+      <link href="/start-java" rel="alternate" type="text/html" title="Java 이해하기" />
+      <published>2020-12-11T05:20:00+09:00</published>
+      <updated>2020-12-11T05:20:00+09:00</updated>
       <id>/start-java</id>
-      <content type="html" xml:base="/start-java">&lt;p&gt;C, Python과 같은 다른 프로그래밍 언어를 공부하고 프로젝트를 진행하면서 많은 사람들이 사용하는 Java를 공부해보고 싶다는 생각을 항상 해왔었다. 4년전 “초보자를 위한 Java 200제” 책을 구입하고 공부를 시작하며 항상 금방 포기했었다. Java를 처음 시작할 당시 JDK, JVM, JSE, JavaEE와 같이 많은 용어들이 시작부터 튀어나와 반감이 들었고, C언어나 python과 달리 Hello World를 출력하는데 너무 긴 코드를 보니 엄두가 나지 않았었다. 시간이 지나 생각해보면 Java에 대한 이해가 너무 없이 코드 실행부터 하려 했기에 공부하기 싫어졌던 것 같다. 그러나 이제 Java 공부를 더 이상 미루고 싶지 않기에 천천히 Java에 실증 나지 않게 공부를 시작해보려고 한다.&lt;/p&gt;
+      <content type="html" xml:base="/start-java">&lt;h1 id=&quot;java&quot;&gt;Java&lt;/h1&gt;
 
-&lt;p&gt;Java의 장점으로는 많은 개발자가 이용한다는 것이 있다. 많은 사람들이 이용한다는 것 만으로 장점이 될 수 있는 이유는 많은 개발자가 사용하기에 안정성이 높아지고 API가 많아 직접 코드를 짜지 않고도 구현할 수 있는 기능이 많아지기 때문이다. 또 다른점은 이식성이 매우 높다는 것이다. Java코드는 먼저 JDK(Java Development Kit)에서 컴파일 된다. 컴파일 된 프로그램은 바로 실행될 수 없고 JVM(Java Virtual Machine)이라는 가상 머신에서 작동된다. 따라서 Java로 만들어진 프로그램은 운영체제에 상관 없이 JVM만 있으면 실행이 될 수 있게된다.&lt;/p&gt;
+&lt;p&gt; 나는 C언어를 통해 프로그래밍을 처음 접하고 이후 Python을 공부했었다. C언어를 이해한 후 Python을 공부할 땐 문법이나 여러 기능면에서 차이가 있지만 Python 프로그래밍의 구조 이해가 어렵진 않았다. 그러나 이후 Java를 공부하면서 &lt;code class=&quot;highlighter-rouge&quot;&gt;project&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;package&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;java&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt; 등등 처음보는 개념이 너무나 많았고 큰 어려움을 겪었다. 사실 이런 것들은 예제를 따라해보며 Java에 대한 이해를 어느정도 한 후에 이해해도 상관 없는 내용이다. 하지만 모르는 것이 있는데 넘어가는 걸 좋아하는 성격이 아니여서 하나 하나 찾아보았다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Java 프로젝트 구조
+    &lt;ol&gt;
+      &lt;li&gt;프로젝트 명명법&lt;/li&gt;
+      &lt;li&gt;패키지 명명법&lt;/li&gt;
+      &lt;li&gt;클래스 명명법&lt;/li&gt;
+      &lt;li&gt;메소드 명명법&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Java 실행 과정&lt;/li&gt;
+  &lt;li&gt;Hello World 뜯어보기
+    &lt;ol&gt;
+      &lt;li&gt;public&lt;/li&gt;
+      &lt;li&gt;static&lt;/li&gt;
+      &lt;li&gt;String[] args&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Java를 시작하기 위해 먼저 JDK를 설치해야한다. 그러나 Java는 주기적으로 메이저 업데이트가 진행되기 때문에 버전을 선택해야한다. 2020년 12월 4일 기준 Java는 15 버전까지 출시되었지만 최신 버전의 Java는 안정성에서 문제가 생길 수 있고 Java에 입문하는 사람이라면 이런 문제는 잡아내기 어렵다. 많은 프로젝트에서 사용되는 버전은 8이지만 8은 현재 지원이 끊긴 상태이다. 따라서 지원 중인 버전 중 오래된 버전인 11 버전을 공부하기로 했다.&lt;/p&gt;</content>
+&lt;h3 id=&quot;java-프로젝트-구조&quot;&gt;Java 프로젝트 구조&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ProjectA
+    &lt;ul&gt;
+      &lt;li&gt;packageA
+        &lt;ul&gt;
+          &lt;li&gt;ClassA&lt;/li&gt;
+          &lt;li&gt;ClassB&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;packageB
+        &lt;ul&gt;
+          &lt;li&gt;ClassB&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; eclipse, Intellij 같은 IDE들은 폴더 경로를 이용하여 전체 프로젝트를 관리한다. 이 글은 intellij를 기준으로 한다. 이때 &lt;code class=&quot;highlighter-rouge&quot;&gt;workspace&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;project&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;package&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;의 개념이 나온다. IDE를 통해 Java를 시작하려면 먼저 &lt;code class=&quot;highlighter-rouge&quot;&gt;project&lt;/code&gt;를 만들게 된다. &lt;code class=&quot;highlighter-rouge&quot;&gt;project&lt;/code&gt;를 만들면 해당 폴더 안에 .idea폴더와 src폴더가 생성된다. .idea 폴더는 Intellij에서 Java 프로젝트를 관리하는 정보가 있는 폴더이고 프로그래밍은 src폴더에서 이뤄진다. Java 프로그램을 만들기 위해서는 이 src폴더에 .java 확장자를 가진 &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; 만들어야한다. 자바에서 프로젝트를 진행하면 &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;를 여러개 만들게 되는데 이 &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;들을 정리하기 위하여 &lt;code class=&quot;highlighter-rouge&quot;&gt;package&lt;/code&gt;를 이용한다. &lt;code class=&quot;highlighter-rouge&quot;&gt;package&lt;/code&gt;는 주로 비슷한 역할을 지닌 &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;들을 묶어서 보관한다. 이때 &lt;code class=&quot;highlighter-rouge&quot;&gt;package&lt;/code&gt;가 다르다면 &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; 이름이 중복 돼도 된다. + &lt;code class=&quot;highlighter-rouge&quot;&gt;method&lt;/code&gt;는 파일 경로를 통해 구분되는 것은 아니지만 &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; 안에서 생성된 함수이다.&lt;/p&gt;
+
+&lt;h5 id=&quot;프로젝트-명명법&quot;&gt;프로젝트 명명법&lt;/h5&gt;
+
+&lt;p&gt; 프로젝트는 파스칼 표기법을 사용한다.&lt;/p&gt;
+
+&lt;h5 id=&quot;패키지-명명법&quot;&gt;패키지 명명법&lt;/h5&gt;
+
+&lt;p&gt; 패키지 이름은 모두 소문자로 표기하는걸 권장하고, 가독성을 위해 대문자를 섞기도 한다. 패키지 이름을 만들 땐 한가지 더 신경써야한다. 단순 공부용으론 필요 없지만 여러 사람과 협업하거나 프로젝트가 커질경우 패키지명이 중복되는 것을 피해야한다. 때문에 고유한 이름인 회사나 개인의 홈페이지 도메인을 이용하여 도메인.필요한 정보1.필요한 정보2 와 같이 명명한다. 필요한 정보에는 작성자 이름 등이 있을 수 있다. 이때 도메인은 순서를 바꿔 이용한다. google.com을 예로 들면, com.google과 같은 형식이다.&lt;/p&gt;
+
+&lt;h5 id=&quot;클래스-명명법&quot;&gt;클래스 명명법&lt;/h5&gt;
+
+&lt;p&gt; 클래스는 카멜 표기법을 사용하는 것이 권장되지만 2번째 이후 단어는 소문자로 시작하기동한다. 이때 첫 단어는 명사로 만들어 같은 표기법을 이용하는 메소드와 구분되게 한다.&lt;/p&gt;
+
+&lt;h5 id=&quot;메소드-명명법&quot;&gt;메소드 명명법&lt;/h5&gt;
+
+&lt;p&gt; 메소드는 클래스와 같은 표기법을 사용하고  동사로 시작해 클래스와 구분되게 한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;java-실행-과정&quot;&gt;Java 실행 과정&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.java&lt;/code&gt; - -compiler-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; - -jvm-&amp;gt; 실행&lt;/p&gt;
+
+&lt;p&gt; Java를 쓰는 이유는 높은 이식성이 있다. 다른 언어들은 플랫폼이 달라지면 코드를 다시 작성해야 되지만 Java는 그럴 필요가 없다. Java로 프로그래밍 하면 .java 확장자 파일을 가진 소스파일을 작성하게 된다. 이 코드를 컴파일 하게 되면 컴파일러는 .java 파일을 class 파일로 바꾸게 된다. 이 class 파일은 다시 JVM이라는 자바 가상 머신에서 실행되게 된다.
+ C언어로 프로그래밍 하면 .c파일은 바로 실행 가능한 .exe 파일로 바뀌게 된다. 이에 비하면 java는 과정을 하나 더 거치게 되고 결과적으로 실행속도를 늦추게 된다. 그러나 JVM만 있다면 어떤 운영 체제에서든 실행 가능하게 돼 Java에서는 exe파일을 생성하는 것이 아니라 class파일을 만들고 JVM을 통해 실행하는 것이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;hello-world-뜯어보기&quot;&gt;Hello World 뜯어보기&lt;/h3&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloWorld&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt; 위 코드는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello World!&lt;/code&gt;를 출력하기 위한 Java 코드이다. &lt;code class=&quot;highlighter-rouge&quot;&gt;HelloWorld&lt;/code&gt; 하나 출력을 위해 &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;args&lt;/code&gt;같은 것들이 있다. IDE를 사용하면 class 선언은 자동으로 되고 main 메소드도 ‘psvm’ + enter면 해결된다. 때문에 &lt;code class=&quot;highlighter-rouge&quot;&gt;println&lt;/code&gt;을 이해하기 위해 처음 Java를 공부하는 사람이 이 모든것을 알 필요는 없지만 찝찝한 마음에 조사해보았다.&lt;/p&gt;
+&lt;h5 id=&quot;public&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt;&lt;/h5&gt;
+&lt;p&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt;은 접근 제한자이다. 말 그대로 접근할 수 있는 범위를 제한하는 것이다. &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt;은 다른 클래스에서도 사용할 수 있음을 의미한다. &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt; 외의 접근 제한자로는 &lt;code class=&quot;highlighter-rouge&quot;&gt;private&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;protected&lt;/code&gt;가 있다.&lt;/p&gt;
+&lt;h5 id=&quot;static&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;&lt;/h5&gt;
+&lt;p&gt;  &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;은 정적이라는 의미로 메소드나 변수에 사용할 수 있다. &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;이 없으면 인스턴스로 생성된다.&lt;/p&gt;
+
+&lt;p&gt; 먼저 메소드는 &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;을 지정해주면 인스턴스를 따로 생성하지 않아도 사용 가능하고, &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;이 없다면 인스턴스를 사용할 곳에서 생성해야한다.&lt;/p&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;getNumber&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getNumberA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getNumberB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;exampleStaticMethod&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getNumberA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+        &lt;span class=&quot;n&quot;&gt;getNumber&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getNum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getNumber&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getNum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getNumberB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt; 변수 &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;을 사용하면 여러 객체에서 같은 메모리를 사용하고 &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;이 없으면 인스턴스를 따로 생성해 사용한다. 따라서 변수값을 수정해도 다른 객체에는 영향을 미치지 않는다.&lt;/p&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;exampleStaticField&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    	&lt;span class=&quot;n&quot;&gt;Number&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    	&lt;span class=&quot;n&quot;&gt;Number&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numB&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+
+    	&lt;span class=&quot;n&quot;&gt;numA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;num1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    	&lt;span class=&quot;n&quot;&gt;numA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;num2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    	&lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d, %d&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;num1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;num2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt; 위 코드에서 인스턴스로 생성된 numA를 통해 Number 클래스의 num1과 num2를 수정했다. 이때 num1은 정적으로 생성된 변수여서 numA와 numB 인스턴스가 같은 메모리를 사용해 numB에서도 수정되었고 num2는 정적이 아니여서 수정되지 않았다. 따라서 출력은 100, 5이다.&lt;/p&gt;
+
+&lt;h5 id=&quot;string-args&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;String[] args&lt;/code&gt;&lt;/h5&gt;
+&lt;p&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;String[] args&lt;/code&gt;는 args라는 변수명을 가진 문자열 데이터형의 배열을 의미한다. 커멘드에서 자바를 실행할 때 넘겨주는 값을 main으로 가져오게된다.&lt;/p&gt;</content>
 
       
       
@@ -76,7 +181,7 @@
       
 
       
-        <summary type="html">C, Python과 같은 다른 프로그래밍 언어를 공부하고 프로젝트를 진행하면서 많은 사람들이 사용하는 Java를 공부해보고 싶다는 생각을 항상 해왔었다. 4년전 “초보자를 위한 Java 200제” 책을 구입하고 공부를 시작하며 항상 금방 포기했었다. Java를 처음 시작할 당시 JDK, JVM, JSE, JavaEE와 같이 많은 용어들이 시작부터 튀어나와 반감이 들었고, C언어나 python과 달리 Hello World를 출력하는데 너무 긴 코드를 보니 엄두가 나지 않았었다. 시간이 지나 생각해보면 Java에 대한 이해가 너무 없이 코드 실행부터 하려 했기에 공부하기 싫어졌던 것 같다. 그러나 이제 Java 공부를 더 이상 미루고 싶지 않기에 천천히 Java에 실증 나지 않게 공부를 시작해보려고 한다.</summary>
+        <summary type="html">Java</summary>
       
 
       

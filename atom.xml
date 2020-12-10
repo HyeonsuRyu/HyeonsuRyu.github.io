@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> - Articles</title>
-    <description>description</description>
+    <description>개발 블로그</description>
     <link>
     </link>
     
       
       <item>
-        <title>Java 공부 시작하기</title>
+        <title>Java 이해하기</title>
         
-          <description>&lt;p&gt;C, Python과 같은 다른 프로그래밍 언어를 공부하고 프로젝트를 진행하면서 많은 사람들이 사용하는 Java를 공부해보고 싶다는 생각을 항상 해왔었다. 4년전 “초보자를 위한 Java 200제” 책을 구입하고 공부를 시작하며 항상 금방 포기했었다. Java를 처음 시작할 당시 JDK, JVM, JSE, JavaEE와 같이 많은 용어들이 시작부터 튀어나와 반감이 들었고, C언어나 python과 달리 Hello World를 출력하는데 너무 긴 코드를 보니 엄두가 나지 않았었다. 시간이 지나 생각해보면 Java에 대한 이해가 너무 없이 코드 실행부터 하려 했기에 공부하기 싫어졌던 것 같다. 그러나 이제 Java 공부를 더 이상 미루고 싶지 않기에 천천히 Java에 실증 나지 않게 공부를 시작해보려고 한다.&lt;/p&gt;
+          <description>&lt;h1 id=&quot;java&quot;&gt;Java&lt;/h1&gt;
 
 </description>
         
-        <pubDate>Fri, 04 Dec 2020 23:39:00 +0900</pubDate>
+        <pubDate>Fri, 11 Dec 2020 05:20:00 +0900</pubDate>
         <link>
         /start-java</link>
         <guid isPermaLink="true">/start-java</guid>
