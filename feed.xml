@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-11T05:21:49+09:00</updated><id>/</id><title type="html">HyeonsuRyu.github.io</title><subtitle>개발 블로그</subtitle><entry><title type="html">Java 이해하기</title><link href="/start-java" rel="alternate" type="text/html" title="Java 이해하기" /><published>2020-12-11T05:20:00+09:00</published><updated>2020-12-11T05:20:00+09:00</updated><id>/start-java</id><content type="html" xml:base="/start-java">&lt;h1 id=&quot;java&quot;&gt;Java&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-11T05:27:30+09:00</updated><id>/</id><title type="html">HyeonsuRyu.github.io</title><subtitle>개발 블로그</subtitle><entry><title type="html">Java 이해하기</title><link href="/start-java" rel="alternate" type="text/html" title="Java 이해하기" /><published>2020-12-11T05:20:00+09:00</published><updated>2020-12-11T05:20:00+09:00</updated><id>/start-java</id><content type="html" xml:base="/start-java">&lt;h1 id=&quot;java&quot;&gt;Java&lt;/h1&gt;
 
 &lt;p&gt; 나는 C언어를 통해 프로그래밍을 처음 접하고 이후 Python을 공부했었다. C언어를 이해한 후 Python을 공부할 땐 문법이나 여러 기능면에서 차이가 있지만 Python 프로그래밍의 구조 이해가 어렵진 않았다. 그러나 이후 Java를 공부하면서 &lt;code class=&quot;highlighter-rouge&quot;&gt;project&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;package&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;java&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt; 등등 처음보는 개념이 너무나 많았고 큰 어려움을 겪었다. 사실 이런 것들은 예제를 따라해보며 Java에 대한 이해를 어느정도 한 후에 이해해도 상관 없는 내용이다. 하지만 모르는 것이 있는데 넘어가는 걸 좋아하는 성격이 아니여서 하나 하나 찾아보았다.&lt;/p&gt;
 &lt;ol&gt;
@@ -137,7 +137,7 @@
 &lt;h5 id=&quot;header-5&quot;&gt;header 5&lt;/h5&gt;
 &lt;h6 id=&quot;header-6&quot;&gt;header 6&lt;/h6&gt;
 
-&lt;p&gt;#글꼴&lt;/p&gt;
+&lt;h1 id=&quot;글꼴&quot;&gt;글꼴&lt;/h1&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ge&quot;&gt;*italics*&lt;/span&gt;
 &lt;span class=&quot;ge&quot;&gt;_italics_&lt;/span&gt;
 
@@ -165,7 +165,7 @@
 
 &lt;p&gt;&lt;u&gt;underlining&lt;/u&gt;&lt;/p&gt;
 
-&lt;p&gt;#리스트&lt;/p&gt;
+&lt;h1 id=&quot;리스트&quot;&gt;리스트&lt;/h1&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; A
 &lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; B
 &lt;span class=&quot;p&quot;&gt;  -&lt;/span&gt; a
@@ -199,7 +199,7 @@
   &lt;li&gt;D&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;#링크 삽입&lt;/p&gt;
+&lt;h1 id=&quot;링크-삽입&quot;&gt;링크 삽입&lt;/h1&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hyeonsuryu.github.io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hyeonsuryu.github.io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;link description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -209,13 +209,13 @@
 
 &lt;p&gt;&lt;a href=&quot;https://hyeonsuryu.github.io&quot; title=&quot;link description&quot;&gt;hyeonsuryu.github.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;#이미지 삽입&lt;/p&gt;
+&lt;h1 id=&quot;이미지-삽입&quot;&gt;이미지 삽입&lt;/h1&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;alternative text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://hyeonsuryu.github.io/assets/images/grapes.jpg&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;link description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: width=&quot;50%&quot; height=&quot;50%&quot;} #%기호 없이 픽셀 단위 가능
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://hyeonsuryu.github.io/assets/images/grapes.jpg&quot; alt=&quot;alternative text&quot; title=&quot;link description&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;#표&lt;/p&gt;
+&lt;h1 id=&quot;표&quot;&gt;표&lt;/h1&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A | B | C | D
 :---|---:|:---:|---
 a | b | c | d
@@ -247,7 +247,7 @@ a | b | c | d
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;#인용구&lt;/p&gt;
+&lt;h1 id=&quot;인용구&quot;&gt;인용구&lt;/h1&gt;
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt;quote&lt;/span&gt;
 &lt;span class=&quot;gt&quot;&gt;&amp;gt;quote&lt;/span&gt;
 

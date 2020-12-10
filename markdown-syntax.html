@@ -46,7 +46,7 @@
     <meta property="og:site_name" content="HyeonsuRyu.github.io" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="마크다운 문법" />
-    <meta property="og:description" content="#헤더 # header 1 ## header 2 ### header 3 #### header 4 ##### header 5 ###### header 6 header 1 header 2 header 3 header 4 header 5 header 6 #글꼴 *italics* _italics_ **bold** __bold__ **_italics and bold_** __*italics and bold*__ ~~strike through~~ &lt;u&gt;underlining&lt;/u&gt; italics italics bold bold italics" />
+    <meta property="og:description" content="#헤더 # header 1 ## header 2 ### header 3 #### header 4 ##### header 5 ###### header 6 header 1 header 2 header 3 header 4 header 5 header 6 글꼴 *italics* _italics_ **bold** __bold__ **_italics and bold_** __*italics and bold*__ ~~strike through~~ &lt;u&gt;underlining&lt;/u&gt; italics italics bold bold italics" />
     <meta property="og:url" content="/markdown-syntax" />
     <meta property="og:image" content="/assets/images/markdown.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -56,7 +56,7 @@
     <meta property="article:tag" content="Markdown" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="마크다운 문법" />
-    <meta name="twitter:description" content="#헤더 # header 1 ## header 2 ### header 3 #### header 4 ##### header 5 ###### header 6 header 1 header 2 header 3 header 4 header 5 header 6 #글꼴 *italics* _italics_ **bold** __bold__ **_italics and bold_** __*italics and bold*__ ~~strike through~~ &lt;u&gt;underlining&lt;/u&gt; italics italics bold bold italics" />
+    <meta name="twitter:description" content="#헤더 # header 1 ## header 2 ### header 3 #### header 4 ##### header 5 ###### header 6 header 1 header 2 header 3 header 4 header 5 header 6 글꼴 *italics* _italics_ **bold** __bold__ **_italics and bold_** __*italics and bold*__ ~~strike through~~ &lt;u&gt;underlining&lt;/u&gt; italics italics bold bold italics" />
     <meta name="twitter:url" content="/" />
     <meta name="twitter:image" content="/assets/images/markdown.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -88,7 +88,7 @@
         "@type": "WebPage",
         "@id": "/markdown-syntax"
     },
-    "description": "#헤더 # header 1 ## header 2 ### header 3 #### header 4 ##### header 5 ###### header 6 header 1 header 2 header 3 header 4 header 5 header 6 #글꼴 *italics* _italics_ **bold** __bold__ **_italics and bold_** __*italics and bold*__ ~~strike through~~ &lt;u&gt;underlining&lt;/u&gt; italics italics bold bold italics"
+    "description": "#헤더 # header 1 ## header 2 ### header 3 #### header 4 ##### header 5 ###### header 6 header 1 header 2 header 3 header 4 header 5 header 6 글꼴 *italics* _italics_ **bold** __bold__ **_italics and bold_** __*italics and bold*__ ~~strike through~~ &lt;u&gt;underlining&lt;/u&gt; italics italics bold bold italics"
 }
     </script>
 
@@ -192,7 +192,7 @@ into the {body} of the default.hbs template -->
 <h5 id="header-5">header 5</h5>
 <h6 id="header-6">header 6</h6>
 
-<p>#글꼴</p>
+<h1 id="글꼴">글꼴</h1>
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ge">*italics*</span>
 <span class="ge">_italics_</span>
 
@@ -220,7 +220,7 @@ into the {body} of the default.hbs template -->
 
 <p><u>underlining</u></p>
 
-<p>#리스트</p>
+<h1 id="리스트">리스트</h1>
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> A
 <span class="p">1.</span> B
 <span class="p">  -</span> a
@@ -254,7 +254,7 @@ into the {body} of the default.hbs template -->
   <li>D</li>
 </ol>
 
-<p>#링크 삽입</p>
+<h1 id="링크-삽입">링크 삽입</h1>
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nv">hyeonsuryu.github.io</span><span class="p">](</span><span class="sx">https://hyeonsuryu.github.io</span><span class="p">)</span>
 
 <span class="p">[</span><span class="nv">hyeonsuryu.github.io</span><span class="p">](</span><span class="sx">https://hyeonsuryu.github.io</span> <span class="nn">"link description"</span><span class="p">)</span>
@@ -264,13 +264,13 @@ into the {body} of the default.hbs template -->
 
 <p><a href="https://hyeonsuryu.github.io" title="link description">hyeonsuryu.github.io</a></p>
 
-<p>#이미지 삽입</p>
+<h1 id="이미지-삽입">이미지 삽입</h1>
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alternative text</span><span class="p">](</span><span class="sx">https://hyeonsuryu.github.io/assets/images/grapes.jpg</span> <span class="nn">"link description"</span><span class="p">)</span>{: width="50%" height="50%"} #%기호 없이 픽셀 단위 가능
 </code></pre></div></div>
 
 <p><img src="https://hyeonsuryu.github.io/assets/images/grapes.jpg" alt="alternative text" title="link description" width="50%" height="50%" /></p>
 
-<p>#표</p>
+<h1 id="표">표</h1>
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A | B | C | D
 :---|---:|:---:|---
 a | b | c | d
@@ -302,7 +302,7 @@ a | b | c | d
   </tbody>
 </table>
 
-<p>#인용구</p>
+<h1 id="인용구">인용구</h1>
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt;quote</span>
 <span class="gt">&gt;quote</span>
 
