@@ -191,6 +191,10 @@ defaults:
 #   client_secret: "Your client secret"
 #   redirect_uri: "Your redirect url"   # If you use a custom domain name
 
+# Utterances comments
+utterances:
+  repo: "HyeonsuRyu/blog_comments"
+
 # Build settings
 # highlighter: none
 markdown: kramdown
