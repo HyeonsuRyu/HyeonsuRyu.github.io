@@ -74,3 +74,6 @@ You can add notification, warning and error boxes like this:
 
 {: .box-error}
 **Error:** This is an error box.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2Mjg5MjIyOTldfQ==
+-->

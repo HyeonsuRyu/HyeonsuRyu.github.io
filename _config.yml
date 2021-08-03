@@ -143,35 +143,44 @@ night_mode: "auto"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+  - index.html
+  - archives.html
+  - categories.html
+  - tags.html
+  - home.html
+  - about.md
 
 # Page default value
+<<<<<<< HEAD
 #defaults:
 #    home:
 #      heading: "Your awesome heading"
 #      subheading: "Your awesome subheading"
 #      banner: "assets/images/banners/home.jpg"
+=======
+# defaults:
+#    home:
+#      heading: "Your awesome heading"
+#      subheading: "Your awesome subheading"
+#      banner: "/assets/images/banners/home.jpg"
+>>>>>>> e484a2ec6baa14d29650bb7f588ab4229c304d2d
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
 # config it by the front matter for one specific post
-# banner:
-#   video: null             # Video banner source
-#   loop: true              # Video loop
-#   volume: 0               # Video volume (100% is 1.0)
-#   start_at: 0             # Video start time
-#   image: null             # Image banner source
-#   opacity: 1.0            # Banner opacity (100% is 1.0)
-#   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
-#   height: "640px"         # Banner default height
-#   min_height: null        # Banner minium height
-#   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
-#   subheading_style: null  # Custom subheading style (e.g. color: gold)
+#banner:
+#  video: null             # Video banner source
+#  loop: true              # Video loop
+#  volume: 0               # Video volume (100% is 1.0)
+#  start_at: 0             # Video start time
+#  image: "/assets/images/banners/home.jpg"           # Image banner source
+#  opacity: 1.0            # Banner opacity (100% is 1.0)
+#  background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
+#  height: "720px"         # Banner default height
+#  min_height: null        # Banner minium height
+#  heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
+#  subheading_style: null  # Custom subheading style (e.g. color: gold)
 
 # Excerpt size setting
 # excerpt_size: 350
