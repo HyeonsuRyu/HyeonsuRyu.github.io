@@ -152,19 +152,12 @@ header_pages:
   - about.md
 
 # Page default value
-<<<<<<< HEAD
-#defaults:
-#    home:
-#      heading: "Your awesome heading"
-#      subheading: "Your awesome subheading"
-#      banner: "assets/images/banners/home.jpg"
-=======
+
 # defaults:
 #    home:
 #      heading: "Your awesome heading"
 #      subheading: "Your awesome subheading"
 #      banner: "/assets/images/banners/home.jpg"
->>>>>>> e484a2ec6baa14d29650bb7f588ab4229c304d2d
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
