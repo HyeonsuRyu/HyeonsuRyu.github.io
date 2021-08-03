@@ -1,3 +1,10 @@
+---
+layout: post
+title: Welcome file
+subtitle: stackedit.io
+categories: markdown
+tags: [markdown editor]
+---
 # Welcome to StackEdit!
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
@@ -143,5 +150,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM1NDQ1MTBdfQ==
+eyJoaXN0b3J5IjpbLTE4NzE4MzE4MjIsLTEzNTM1NDQ1MTBdfQ
+==
 -->
