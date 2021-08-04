@@ -63,7 +63,8 @@ yat:
 # header_transparent: true
 
 # Google analytics
-google_analytics: G-250KGB3JV7
+# google_analytics:
+google_analytics_4 : G-250KGB3JV7
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
