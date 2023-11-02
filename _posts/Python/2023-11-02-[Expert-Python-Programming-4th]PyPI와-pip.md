@@ -4,10 +4,6 @@ title: [Expert-Python-Programming-4th]PyPI와-pip
 categories: Python
 tags: [Python, PyPI, pip, site-packages, dist-packages]
 ---
-- [PyPI](#PyPI)
-- [pip](#pip)
-  - [패키지 설치 경로](##패키지-설치-경로)
-    - [패키지 우선 순위](###패키지-우선-순위)
 # PyPI
 Python은 거대한 생태계를 가져 수많은 패키지를 이용할 수 있다. `PyPI`(Python Packaging Index)는 이러한 패키지를 저장하는 공개 저장소이다. Python의 몇몇 패키지들은 여러 운영체제가 표준 컴포넌트로 내장되어 있어 `apt-get`, `rpm`, `emerge` 등으로도 설치할 수 있다. 그러나 구버전의 패키지가 있을 가능성이 크다. 파이썬 패키징 어소시티는 `pip`를 이용하여 PyPI의 패키지를 설치할 것을 권장한다.
 # pip
