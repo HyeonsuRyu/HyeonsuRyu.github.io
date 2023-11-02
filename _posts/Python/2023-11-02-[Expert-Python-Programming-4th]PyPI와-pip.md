@@ -1,7 +1,7 @@
 ---
 layout: post
-title: [Expert Python Programming 4th]PyPI와 pip
-subtitle: [Expert Python Programming 4th]PyPI와 pip
+title: \[Expert Python Programming 4th\]PyPI와 pip
+subtitle: \[Expert Python Programming 4th\]PyPI와 pip
 categories: Python
 tags: [Python, PyPI, pip, site-packages, dist-packages]
 ---
