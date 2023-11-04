@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Expert-Python-Programming-4th]런타임 환경 격리
+title: 「Expert Python Programming 4th」런타임 환경 격리
 categories: Python
 tags: [환경 격리, 가상 환경, venv, poetry, 머신 가상화, 컨테이너화, 도커, 디펜던시]
 ---
