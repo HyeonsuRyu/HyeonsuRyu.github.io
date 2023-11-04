@@ -3,4 +3,5 @@ User-agent: *
 Disallow: /
 Allow: /_posts/
 Allow: /assets/images/
+Allow: /sitemap.xml
 Sitemap: https://hyeonsuryu.github.io/sitemap.xml
