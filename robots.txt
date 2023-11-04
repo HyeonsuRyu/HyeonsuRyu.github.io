@@ -6,6 +6,6 @@ Disallow: /_includes/
 Disallow: /_layouts/
 Disallow: /_sass/
 Disallow: /assets/css/
-Disallow: /assets/js
+Disallow: /assets/js/
 Disallow: /node_modules/
 Sitemap: https://hyeonsuryu.github.io/sitemap.xml
