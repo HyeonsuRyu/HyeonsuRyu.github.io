@@ -1,0 +1,6 @@
+# allow all crawlers
+User-agent: *
+Disallow: /
+Allow: /_posts/
+Allow: /assets/images/
+Sitemap: https://hyeonsuryu.github.io/sitemap.xml
