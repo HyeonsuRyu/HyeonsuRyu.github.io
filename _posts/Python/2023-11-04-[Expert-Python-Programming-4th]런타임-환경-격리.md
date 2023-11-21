@@ -2,7 +2,7 @@
 layout: post
 title: 「Expert Python Programming 4th」런타임 환경 격리
 categories: Python
-tags: [환경 격리, 가상 환경, venv, poetry, 머신 가상화, 컨테이너화, 도커, 디펜던시]
+tags: [환경 격리, 가상 환경, venv, poetry, 머신 가상화, 컨테이너화, 도커, 디펜던시, 전문가를 위한 파이썬 프로그래밍]
 ---
 ## 환경 격리란
 프로젝트가 정상적으로 작동하기 위하여 필요한 패키지를 `디펜던시`라 한다. 여러 프로젝트가 서로 다른 버전의 패키지를 필요로 하는 경우 [`pip`](https://hyeonsuryu.github.io/python/2023/11/02/Expert-Python-Programming-4th-PyPI%EC%99%80-pip.html)는 여러 버전의 패키지 설치를 허용하지 않으므로 디펜던시 문제가 발생하게 된다. `환경 격리`는 하나의 컴퓨터 시스템에서 디펜던시 문제를 해결하기 위하여 필요하다. 환경 격리는 [`애플리케이션 레벨 격리`](###애플리케이션-레벨-격리)와 [`시스템 레벨 격리`](###시스템-레벨-격리)로 나뉜다.
