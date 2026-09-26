@@ -43,10 +43,10 @@ author: HyeonsuRyu
 copyright: "(c) {currentYear}. {author} All Rights Reserved"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
+  백엔드·인프라 개발을 공부하며 배운 내용을 정리하는 기술 블로그입니다.
+  서버 구축, 개발 환경 구성, 운영 자동화, AI 서비스까지
+  직접 실습한 과정과 개념을 쉽게 기록합니다.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://HyeonsuRyu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "/favicon.ico" # the favicon for your site
