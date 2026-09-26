@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bare Git Repo Server 구성
+title: Bare Git Repo Server 구축
 subtitle:
 categories: Infrastructure
 tags:
@@ -11,11 +11,14 @@ date: 2026-09-26
 **SSH 프로토콜**로 클라이언트에서 통신하는 예제이다.
 # 환경
 ## 서버
+
 | 프로그램 | 버전 |
 | --- | --- |
 | OS | Ubuntu 24.04.5 LTS |
 | Git | 2.43.0 |
+
 ## 클라이언트
+
 | 프로그램 | 버전 |
 | --- | --- |
 | OS | Windows 11 Pro 25H2 |
