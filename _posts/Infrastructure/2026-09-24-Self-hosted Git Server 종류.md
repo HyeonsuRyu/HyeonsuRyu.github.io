@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Server 종류 및 cgit 호스팅
+title: Git Server 종류
 subtitle:
 categories: Infrastructure
 tags:
